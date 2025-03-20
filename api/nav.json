@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "icon": "Home.svg",
+        "title": "Dashboard",
+        "children": [
+            {
+                "id": 11,
+                "link": "All pages"
+            }, {
+                "id": 12,
+                "link": "Reports"
+            }, {
+                "id": 13,
+                "link": "Products"
+            }, {
+                "id": 14,
+                "link": "Task"
+            }
+        ]
+    }, {
+        "id": 2,
+        "icon": "Features Icon.svg",
+        "title": "Features",
+        "children": [
+            {
+                "id": 21,
+                "link": "Features1"
+            }, {
+                "id": 22,
+                "link": "Features2"
+            }
+        ]
+    }, {
+        "id": 3,
+        "icon": "Users Icon.svg",
+        "title": "Users",
+        "children": [
+            {
+                "id": 31,
+                "link": "Users"
+            }, {
+                "id": 32,
+                "link": "FAQ"
+            }
+        ]
+    }, {
+        "id": 4,
+        "icon": "Pricing Icon.svg",
+        "title": "Pricing",
+        "children": [
+            {
+                "id": 41,
+                "link": "Price1"
+            }, {
+                "id": 42,
+                "link": "Price2"
+            }, {
+                "id": 43,
+                "link": "Price3"
+            }
+        ]
+    }, {
+        "id": 5,
+        "icon": "Integrations Icon.svg",
+        "title": "Integrations",
+        "children": [
+            {
+                "id": 51,
+                "link": "Contact Us"
+            }, {
+                "id": 52,
+                "link": "Help Center"
+            }
+        ]
+    }
+]

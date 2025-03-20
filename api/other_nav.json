@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "icon": "Settings Icon.svg",
+        "title": "Settings",
+        "children": [
+            {
+                "id": 11,
+                "link": "Settings pages"
+            }, {
+                "id": 12,
+                "link": "Settings Reports"
+            }, {
+                "id": 13,
+                "link": "Settings Products"
+            }, {
+                "id": 14,
+                "link": "Settings Task"
+            }
+        ]
+    }, {
+        "id": 2,
+        "icon": "Webflow Icon.svg",
+        "title": "Webflow",
+        "children": [
+            {
+                "id": 21,
+                "link": " Webflow "
+            }, {
+                "id": 22,
+                "link": "Webflow Features2"
+            }
+        ]
+    }, {
+        "id": 3,
+        "img": "Group 39488.png",
+        "title": "John Carter",
+        "text": "Account settings",
+        "children": [
+            {
+                "id": 31,
+                "link": "User"
+            }, {
+                "id": 32,
+                "link": "FAQ"
+            }
+        ]
+    }
+]
