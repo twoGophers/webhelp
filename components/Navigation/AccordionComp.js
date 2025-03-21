@@ -67,7 +67,7 @@ export default function AccordionComponent({data}) {
                                         
                                         <div className='accord__profile'>
                                             <span className={`accord__title ${expanded === item.title ? 'active-fux' : ''}`}>{item.title}</span>
-                                            { item?.text && <spam className='accord__profile-text'>{item?.text}</spam>}
+                                            { item?.text && (<span className='accord__profile-text'>{item?.text}</span>)}
                                         </div>
                                         
                                     </Typography>
@@ -90,7 +90,6 @@ export default function AccordionComponent({data}) {
                                 </Accordion>
                             ))
                         }
-                        <div className='line'></div>
                     </div>
                 )
             }

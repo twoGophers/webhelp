@@ -1,0 +1,109 @@
+.charts {
+    position: relative;
+    border-radius: 8px;
+    background: #0B1739;
+    margin-top: 17px;
+    height: 670px;
+    display: flex;
+    gap: 10px;
+    border: 0.6px solid #343B4F;
+    &__schedule {
+        padding: 42px;
+        position: relative;
+        flex: 2;
+    }
+    &__title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        span {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 14px;
+                color: #AEB9E1;
+        }
+    }
+
+    &__total-price{
+        display: flex;
+        flex-direction: row;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        color: #fff;
+    }
+    &__revenue {
+        position: relative;
+        &::after {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: #CB3CFF;
+            top: 3px;
+            left: -10px;
+        }
+    }
+    &__expenses {
+        position: relative;
+        &::after {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: #00C2FF;
+            top: 3px;
+            left: -10px;
+        }
+    }
+    &__line-name {
+        color: #AEB9E1;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+    }
+    &__diagram {
+        flex: 1;
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        span{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            color: #AEB9E1;
+            text-align: left;
+        }
+        a {
+
+            font-style: italic;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color: #CB3CFF;
+            text-align: right;
+        }
+
+
+    }
+    &__total-price-foot{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__diagram-item {
+        height: 45%;
+        display: flex;
+        flex-direction: column;
+    }
+}

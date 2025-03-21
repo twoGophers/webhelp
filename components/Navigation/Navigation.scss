@@ -58,4 +58,27 @@
             }
         }
     }
+
+    &__btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 14px 12px;
+        gap: 8px;
+
+        width: 241px;
+        height: 46px;
+
+        background: linear-gradient(128.49deg, #CB3CFF 19.86%, #7F25FB 68.34%);
+        border-radius: 4px;
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        color: #fff !important;
+        text-transform: capitalize !important;
+
+        margin-top: 64px !important;
+    }
 }

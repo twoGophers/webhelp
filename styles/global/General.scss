@@ -10,6 +10,9 @@ body {
 
 .home {
     position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .active-fux {
@@ -22,12 +25,22 @@ body {
 }
 
 .line {
+    margin-top: 28px;
+
     width: 300px;
-    position: absolute;
-    // bottom: 0%;
     height: 1px;
     background: #fff;
     opacity: 0.3;
-    left: -28px;
-    margin: 28px 0px;
+    margin-left: -28px;
+}
+
+main {
+    width: calc( 100% - 300px);
+    padding: 35px 47px;
+}
+
+.over-block {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }

@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "icon": "Views Icon.svg",
+        "name": "Pageviews",
+        "number": 50800,
+        "percentage": 28.4
+    }, {
+        "id": 2,
+        "icon": "Users Icon.svg",
+        "name": "Monthly users",
+        "number": 23600,
+        "percentage": 12.6
+    }, {
+        "id": 3,
+        "icon": "Signups Icon.svg",
+        "name": "New sign ups",
+        "number": 756,
+        "percentage": 3.1
+    }, {
+        "id": 4,
+        "icon": "Features Icon.svg",
+        "name": "Subscriptions",
+        "number": 2300,
+        "percentage": 11.3
+    }
+]
