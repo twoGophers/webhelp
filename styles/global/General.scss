@@ -8,6 +8,11 @@ body {
     box-sizing: border-box;
 }
 
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 .home {
     position: relative;
     display: flex;
